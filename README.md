@@ -32,6 +32,7 @@ There are also optional elements you may use to build your story line:
 // "slide_img" = "path to image" 
 // "slide_txt" = "slide txt content"
 ```
+The word `Victor` will be automaticly converted to the name player entered at begining
 
 The outer shadow of the box will turn red if ifend is set to true.
 
