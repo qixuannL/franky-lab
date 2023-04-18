@@ -37,7 +37,7 @@ The outer shadow of the box will turn red if ifend is set to true.
 
 # End
 
-finally, after you have tweaked around the stuff, you can simple double click the home.html to see your work :D
+finally, after you have tweaked around the stuff, you can simply double click the home.html to see your work :D
 
 
 Discord: `aii#3184` if you need any help
