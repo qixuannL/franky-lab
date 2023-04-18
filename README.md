@@ -1,5 +1,5 @@
 # franky-lab
-A simple static website game that will give user choices to pick from, and expend story line base on selections. 
+A simple static website game that will give user choices to pick from, and expend story line base on selections.
 
 Example site: https://frankenstein.lol/
 
@@ -8,10 +8,10 @@ Example site: https://frankenstein.lol/
 To change content, you have to go to script.js, Replace `currentData` Data with your own Data
 
 # How to create your own Data?
-
+```js
 data: {
   "title": "Victor is considering what experiments to do with an organism:",
-	"image": "images/victor_think.webp",
+  "image": "images/victor_think.webp",
   choice1: {
     // nest the array over again
   }
@@ -19,8 +19,22 @@ data: {
     // nest the array over again
   }
 }
-
+```
 Here is an simple example data structure needed for it to work.
 
 There are also optional elements you may use to build your story line:
 
+```js
+// "ifend" = true if you want to end the game on a specfic point
+// "title" will be printed as the logging aswell as the button choice text 
+// "spc" is an optional element, if spc exist, it will display spc text on top instead of displaying "title" text, "spc" does not affact button text
+// "slide" is an optional element, if true, it will display an adtional image/text in the middle
+// "slide_img" = "path to image" 
+// "slide_txt" = "slide txt content"
+```
+
+The outer shadow of the box will turn red if ifend is set to true.
+
+# End
+
+finally, after you have tweaked around the stuff, you can simple double click the home.html to see your work :D
