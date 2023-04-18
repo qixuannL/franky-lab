@@ -36,6 +36,8 @@ The word `Victor` will be automaticly converted to the name player entered at be
 
 The outer shadow of the box will turn red if ifend is set to true.
 
+Note: If you are using images that you downloaded, i would recommand you to covert to .webp for faster load time
+
 # End
 
 finally, after you have tweaked around the stuff, you can simply double click the home.html to see your work :D
