@@ -14,7 +14,7 @@ data: {
   "image": "images/victor_think.webp",
   choice1: {
     // nest the array over again
-  }
+  },
   choice2: {
     // nest the array over again
   }
