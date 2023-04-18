@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<meta property="og:title" content="Franky's Lab 👻">
+<meta property="og:description" content="a simple advanture game on Frankenstein">
+<head>
+	<link rel="icon" href="images/franky_img.png" type="image/x-icon">
+	<title>franky's lab</title>
+	<style>
+		body {
+			background-color: #3d3d3d;
+			color: #fff;
+			font-family: Arial, sans-serif;
+			font-size: 20px;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+
+		.center {
+			text-align: center;
+			opacity: 0;
+			transition: opacity 1s ease-in-out;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			padding: 20px;
+			border: 2px solid #fff;
+			border-radius: 10px;
+			background-color: rgba(255, 255, 255, 0.1);
+			box-shadow: 0px 0px 20px 5px rgba(255, 255, 255, 0.1);
+		}
+		
+		.center input {
+			margin-top: 20px;
+			font-size: 20px;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			outline: none;
+			margin-right: 10px;
+			margin-bottom: 20px;
+		}
+
+		.center button {
+			font-size: 20px;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			outline: none;
+			background-color: #fff;
+			color: #3d3d3d;
+			cursor: pointer;
+			transition: background-color 0.5s ease-in-out;
+		}
+
+			.center button:hover {
+				background-color: #3d3d3d;
+				color: #fff;
+			}
+
+		.notification {
+			position: fixed;
+			top: 0;
+			left: 0;
+			font-size: 16px;
+			font-weight: bold;
+			color: #fff;
+			opacity: 0;
+		}
+
+		.button {
+			position: fixed;
+			top: 10px;
+			right: 10px;
+			background-color: #292929;
+			border: none;
+			border-radius: 5px;
+			outline: none;
+			color: #fff;
+			cursor: pointer;
+			padding: 10px;
+			transition: background-color 0.5s ease-in-out;
+		}
+
+			.button:hover {
+				background-color: #3d3d3d;
+			}
+
+		.container {
+			position: relative;
+			margin: 0 auto;
+			max-width: 600px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="button">
+		<a href="/about.html" style="color: #fff; text-decoration: none;">About</a>
+	</div>
+	<div class="container">
+		<div class="center" id="center">
+			<label for="name">Enter your name to start playing Franky's lab 👻:</label>
+			<input type="text" id="name" placeholder="Name">
+			<button id="enter">Enter</button>
+		</div>
+		<div class="notification" id="notification"></div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
