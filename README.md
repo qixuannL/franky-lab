@@ -40,7 +40,7 @@ Note: If you are using images that you downloaded, i would recommand you to cove
 
 # End
 
-finally, after you have tweaked around the stuff, you can simply double click the home.html to see your work :D
+finally, after you have tweaked around the stuff, you can simply double-click the home.html to see your work :D
 
 
 Discord: `aii#3188` if you need any help
